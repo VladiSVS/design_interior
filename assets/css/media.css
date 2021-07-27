@@ -2,15 +2,18 @@
 
     header {
         flex-wrap: wrap;
+        height: 90vh;
     }
 
     header > div:first-of-type {
         width: 100%;
+        height: 50vh;
     }
 
     header > div:last-of-type {
         flex-wrap: wrap;
         width: 100%;
+        height: 40vh;
     }
 
     header > div:first-of-type > h1 {
