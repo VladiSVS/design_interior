@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     header {
         flex-wrap: wrap;
@@ -73,6 +73,10 @@
 
     #designs > article {
         flex-wrap: wrap;
+    }
+    
+    #designs > article:first-of-type {
+        justify-content: center;
     }
 
     #contact {
