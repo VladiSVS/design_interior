@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+h1, h2, label {
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+p, a, figcaption {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    height: 100vh;
+}
+
+header > div:first-of-type {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div:first-of-type > h1 {
+    font-size: 6em;
+    margin-bottom: 0.5em;
+}
+
+header >div:first-of-type > h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;;
+}
+
+header > div:last-of-type {
+    background: url(../img/design-interior-1.jpg) center/cover no-repeat;
+    width: 55%;
+}
+
+/* navigation content */
+
+#navi {
+    position: sticky;
+    top: 0;
+    background: #2e2e2e;
+}
+
+#navi > nav > img {
+    width: 80px;
+    height: 80px;
+}
+
+#navi > nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+#navi > nav > ul {
+    width: 80%;
+    text-align: right;
+}
+
+#navi > nav > ul > li {
+    display: inline;
+}
+
+#navi > nav > ul > li > a {
+    color: #fff;
+    margin-left: 10%;
+    letter-spacing: 0.1em;
+}
+
+/* content */
+
+#story {
+    background: #2e2e2e;
+}
+
+#story > article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#story > article > div:first-of-type {
+    width: 55%;
+    height: 70%;
+    background: url(../img/story.jpg) center/cover no-repeat;
+}
+
+#story > article > div:last-of-type {
+    width: 35%;
+    height: 70%;
+    padding: 0 5%;
+}
+
+#story > article > div:last-of-type > h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin: 10% 0 5% 0;
+}
+
+#story > article > div:last-of-type > p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+/* section feature */
+
+#designs {
+    background: #fff;
+    padding: 15% 5% 10% 5%;
+}
+
+#designs > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#designs > div > h1 {
+    margin-bottom: 1%;
+    font-size: 2em;
+}
+
+#designs > div > p {
+    width: 35%;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#designs > article:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#designs > article:first-of-type > figure {
+    margin: 2%;
+}
+
+#designs > article:first-of-type > figure > img {
+    width: 100%;
+}
+
+#designs > article:first-of-type > figure > figcaption {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: 2% 0;
+    font-size: 0.8em;
+}
+
+#designs > article:last-of-type {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* section contact  */
+
+#contact {
+    height: 86vh;
+    padding: 0 15% 0 5%;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact > div {
+    width: 45%;
+}
+
+#contact > div > h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+#contact > div > p {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+}
+
+#contact > div > p:nth-of-type(1) {
+    margin: 5% 0;
+}
+
+#contact > form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact > form > label {
+    color: #fff;
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+
+#contact > form > input {
+    height: 2em;
+}
+
+#contact > form > input:last-of-type {
+    width: 25%;
+    height: 6vh;
+    margin-top: 10%;
+}
+
+#contact > form > input:last-of-type[type=button] {
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+/* footer  */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1d2c2f;
+    height: 13vh;
+}
+
+footer > h1 {
+    color: #fff;
+    font-size: 1em;
+    width: 25%;
+    text-align: left;
+}
+
+footer > h1:last-of-type {
+    text-align: center;
+}
+
+footer > ul {
+    width: 25%;
+    text-align: right;
+}
+footer > ul > li {
+    display: inline;
+}
+
+footer > ul > li > a {
+    font-family: 'Lora', serif;
+    color: #fff;
+    margin-left: 5%;
+}
