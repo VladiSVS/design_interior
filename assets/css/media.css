@@ -58,6 +58,10 @@
         font-size: 0.8em;
     }
 
+    #story > article > div:last-of-type > p {
+        margin-bottom: 1%;
+    }
+
     #designs > div > h1 {
         font-size: 1.8em;
         margin-bottom: 3%;
@@ -93,6 +97,10 @@
 
     #contact > div > p {
         font-size: 0.8em;
+    }
+
+    #contact > div > p:nth-of-type(1) {
+        margin-bottom: 2%;
     }
 
     #contact > form {
